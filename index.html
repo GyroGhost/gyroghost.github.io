@@ -50,6 +50,11 @@
   .arrow{color:var(--muted);font-size:18px}
   .dc{background:#5865F2}.yt{background:#FF0000}
   .ig{background:linear-gradient(45deg,#f9a825,#e1306c,#833ab4)}.gh{background:#24292f;border:1px solid #444}
+  .bl{background:#FF5722}.tt{background:#000;border:1px solid #444}
+  .socials{display:flex;justify-content:center;gap:14px;margin-top:26px}
+  .socials a{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;transition:.2s}
+  .socials a:hover,.socials a:focus-visible{transform:translateY(-2px);box-shadow:0 0 0 2px var(--red)}
+  .socials svg{width:24px;height:24px;fill:#fff}
   footer{margin-top:36px;color:#5d5d6a;font-size:12px;font-family:"Inter",sans-serif}
 </style>
 </head>
@@ -67,7 +72,7 @@
   <h1>Gyro<span>Ghost</span></h1>
   <p class="name">Bader alshatti · bader.fpv</p>
   <p class="bio">FPV Developer · Betaflight Contributor<br>Drone Team | Kuwait Science Club 🇰🇼</p>
-  <p class="bio-ar">مجتمع FPV العربي</p>
+  <p class="bio-ar">باحث ومطور في FPV</p>
 
   <nav class="links">
     <a class="btn" href="https://discord.gg/ntx58a5e8" target="_blank" rel="noopener">
@@ -76,17 +81,22 @@
     </a>
     <a class="btn" href="https://www.youtube.com/@bader-fpv" target="_blank" rel="noopener">
       <span class="icon yt"><svg viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15V9l5.8 3-5.8 3z"/></svg></span>
-      <span class="txt"><b>YouTube</b><small>شروحات وفيديوهات</small></span><span class="arrow">›</span>
-    </a>
-    <a class="btn" href="https://www.instagram.com/bader.fpv" target="_blank" rel="noopener">
-      <span class="icon ig"><svg viewBox="0 0 24 24"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm4.9-8.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM21.9 7c-.1-1.6-.4-3-1.6-4.2S17.6 1.2 16 1.1C14.4 1 9.6 1 8 1.1 6.4 1.2 5 1.5 3.8 2.7S2.2 5.4 2.1 7C2 8.6 2 13.4 2.1 15c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.6.1 6.4.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.6.1-6.4.1-8zm-2 9.8a3.3 3.3 0 0 1-1.8 1.8c-1.3.5-4.3.4-5.7.4s-4.4.1-5.7-.4a3.3 3.3 0 0 1-1.8-1.8c-.5-1.3-.4-4.3-.4-5.7s-.1-4.4.4-5.7a3.3 3.3 0 0 1 1.8-1.8c1.3-.5 4.3-.4 5.7-.4s4.4-.1 5.7.4a3.3 3.3 0 0 1 1.8 1.8c.5 1.3.4 4.3.4 5.7s.1 4.4-.4 5.7z"/></svg></span>
-      <span class="txt"><b>Instagram</b><small>bader.fpv</small></span><span class="arrow">›</span>
+      <span class="txt"><b>YouTube</b><small>شروحات علمية وعملية</small></span><span class="arrow">›</span>
     </a>
     <a class="btn" href="https://github.com/BADERFPV" target="_blank" rel="noopener">
       <span class="icon gh"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg></span>
       <span class="txt"><b>GitHub</b><small>مشاريعي ومساهماتي</small></span><span class="arrow">›</span>
     </a>
+    <a class="btn" href="https://baderfpv.blogspot.com/" target="_blank" rel="noopener">
+      <span class="icon bl"><svg viewBox="0 0 24 24"><path d="M3 17.3V21h3.7L17.8 9.9l-3.7-3.7L3 17.3zM20.7 7c.4-.4.4-1 0-1.4l-2.3-2.3a1 1 0 0 0-1.4 0l-1.8 1.8 3.7 3.7L20.7 7z"/></svg></span>
+      <span class="txt"><b style="font-family:Cairo,sans-serif">مقالاتي</b><small>مقالات ودروس FPV</small></span><span class="arrow">›</span>
+    </a>
   </nav>
+
+  <div class="socials">
+    <a class="ig" href="https://www.instagram.com/bader.fpv" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm4.9-8.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM21.9 7c-.1-1.6-.4-3-1.6-4.2S17.6 1.2 16 1.1C14.4 1 9.6 1 8 1.1 6.4 1.2 5 1.5 3.8 2.7S2.2 5.4 2.1 7C2 8.6 2 13.4 2.1 15c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.6.1 6.4.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.6.1-6.4.1-8zm-2 9.8a3.3 3.3 0 0 1-1.8 1.8c-1.3.5-4.3.4-5.7.4s-4.4.1-5.7-.4a3.3 3.3 0 0 1-1.8-1.8c-.5-1.3-.4-4.3-.4-5.7s-.1-4.4.4-5.7a3.3 3.3 0 0 1 1.8-1.8c1.3-.5 4.3-.4 5.7-.4s4.4-.1 5.7.4a3.3 3.3 0 0 1 1.8 1.8c.5 1.3.4 4.3.4 5.7s.1 4.4-.4 5.7z"/></svg></a>
+    <a class="tt" href="https://www.tiktok.com/@bader.fpv" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.4v13.4a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9.1a6.3 6.3 0 1 0 5.4 6.3V8.7a7.7 7.7 0 0 0 4.4 1.4V6.7a4.4 4.4 0 0 1-4.4-4.7z"/></svg></a>
+  </div>
 
   <footer>© GyroGhost</footer>
 </main>
